@@ -332,11 +332,12 @@
                     pop.className = 'final-pop';
                     pop.innerHTML = "I LOVE YOU 💋";
                     pop.style.left = Math.random() * 90 + 'vw';
+                    pop.style.right = Math.random() * 90 + 'vw';
                     pop.style.top = Math.random() * 90 + 'vh';
-                    pop.style.fontSize = (Math.random() * 20 + 20) + 'px';
+                    pop.style.fontSize = (Math.random() * 10 + 10) + 'px';
                     document.body.appendChild(pop);
                     
-                    gsap.from(pop, { scale: 0, rotation: Math.random()*20-10, duration: 0.5, ease: "back.out" });
+                    gsap.from(pop, { scale: 1, rotation: Math.random()*20-10, duration: 0.8, ease: "back.out" });
                 }, i * 50);
             }
         }
