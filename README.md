@@ -160,22 +160,27 @@
             <button onclick="nextStep(3)" class="btn-primary px-8 py-3 rounded-full text-white font-bold text-lg">There's more...</button>
         </div>
 
-        <div id="step-3" class="glass-card max-w-2xl w-full p-10 text-center">
-            <h2 class="text-3xl font-bold mb-8 text-gradient">A Few Things I Adore About You</h2>
-            <div class="grid grid-cols-2 gap-4 text-left mb-8">
-                <div class="col-span-2 bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-pink-400 font-bold">✨ Your Unmatched Kindness</h3>
-                    <p class="text-sm text-gray-290">The genuine warmth you show to everyone is something truly rare and beautiful.</p>
+        <div id="step-3" class="glass-card">
+    <h2 class="heading-serif text-3xl font-bold mb-4 text-center">A Few Things I Adore...</h2>
+    <div class="bento-grid mb-8">
+        <div class="bento-item col-span-2">
+            <h3 class="text-pink-400 font-bold text-sm mb-1">✨ Your Unmatched Kindness</h3>
+                    <p class="text-xs text-slate-300">The genuine warmth you show to everyone is something truly rare.</p>
                 </div>
-                <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-pink-400 font-bold">😊 That Smile</h3>
-                    <p class="text-sm text-gray-290">It's a work of art.</p>
+                <div class="bento-item">
+            <h3 class="text-pink-400 font-bold text-sm mb-1">😊 That Smile</h3>
+            <p class="text-xs text-slate-300">It's a work of art.</p>
                 </div>
-                <div class="col-span-2 bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-pink-400 font-bold">🌟 Your Radiant Spirit</h3>
-                    <p class="text-sm text-gray-290">Your passion for life is infectious. Being around you makes everything feel more exciting.</p>
+                <div class="bento-item">
+            <h3 class="text-pink-400 font-bold text-sm mb-1">🌟 Radiant</h3>
+            <p class="text-xs text-slate-300">Infectious energy.</p>
                 </div>
-            </div>
+        <div class="bento-item col-span-2">
+            <h3 class="text-pink-400 font-bold text-sm mb-1">💖 Your Spirit</h3>
+            <p class="text-xs text-slate-300">Being around you makes everything feel possible.</p>
+        </div>
+    </div>
+    <div class="text-center">
             <button onclick="nextStep(4)" class="btn-primary px-8 py-3 rounded-full text-white font-bold text-lg">Remember this?</button>
         </div>
 
