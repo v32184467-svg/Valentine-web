@@ -165,15 +165,15 @@
             <div class="grid grid-cols-2 gap-4 text-left mb-8">
                 <div class="col-span-2 bg-white/5 p-6 rounded-2xl border border-white/10">
                     <h3 class="text-pink-400 font-bold">✨ Your Unmatched Kindness</h3>
-                    <p class="text-sm text-gray-400">The genuine warmth you show to everyone is something truly rare and beautiful.</p>
+                    <p class="text-sm text-gray-290">The genuine warmth you show to everyone is something truly rare and beautiful.</p>
                 </div>
                 <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
                     <h3 class="text-pink-400 font-bold">😊 That Smile</h3>
-                    <p class="text-sm text-gray-400">It's a work of art.</p>
+                    <p class="text-sm text-gray-290">It's a work of art.</p>
                 </div>
                 <div class="col-span-2 bg-white/5 p-6 rounded-2xl border border-white/10">
                     <h3 class="text-pink-400 font-bold">🌟 Your Radiant Spirit</h3>
-                    <p class="text-sm text-gray-400">Your passion for life is infectious. Being around you makes everything feel more exciting.</p>
+                    <p class="text-sm text-gray-290">Your passion for life is infectious. Being around you makes everything feel more exciting.</p>
                 </div>
             </div>
             <button onclick="nextStep(4)" class="btn-primary px-8 py-3 rounded-full text-white font-bold text-lg">Remember this?</button>
